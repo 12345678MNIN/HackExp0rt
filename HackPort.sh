@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exibe o texto "Clone ff" com figlet
+figlet "Clone ff"
+
 # Function to start Hydra (brute force on SSH)
 function hydra_attack() {
     echo "Starting Hydra attack on SSH..."
